@@ -1,7 +1,7 @@
 # Contributing
 
 
-Branches
+## Branches
 Chaque développeur travaille dans sa branche (1 par développeur). Chaque développeur peut créer des branches supplémentaires s'il en a besoin.
 
 /!\ Créez vos branches à partir de la branche "develop".
