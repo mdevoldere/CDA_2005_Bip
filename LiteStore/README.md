@@ -2,7 +2,7 @@
 
 Création d'une petite boutique en ligne de cartes cadeaux.
 
-Les administrateurs (id,username,password) peut gérer les articles.
+Les administrateurs (id,username,password) peuvent gérer les articles.
 Les utilisateurs peuvent ajouter des articles de la boutique dans un panier d'achat et valider leur commande.
 
 
