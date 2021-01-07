@@ -35,7 +35,7 @@ Exemple de l'interface attendu (page des promotions)
 
 Les cartes sont associées à une ou plusieurs catégories (magasin physique, virtuel, offre spéciale...).
 
-LEs vues associées aux catégories sont disponibles.
+Les vues associées aux catégories sont disponibles.
 
 ## Fonctionnalités Bonus (v3)
 
