@@ -9,7 +9,7 @@ Les utilisateurs (id,username,password) se connectent et peuvent discuter dans u
 ## Fonctionnalités
 
 - **Salon de discussion principal** 
-  - tous les messages sont enregistrés (ip, utilisateur, message) et conservés dans une base de données
+  - tous les messages sont enregistrés (ip, utilisateur, message, message_date) et conservés dans une base de données
 
 - **Utilisateurs**
   - inscription simple
