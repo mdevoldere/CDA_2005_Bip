@@ -31,7 +31,11 @@ namespace LiteChatWebsite.Models
 
         [ForeignKey("FK_role_in_user")]
         [Column("role_id")]
-        public int RoleID
+        public int RoleModelID
+        {
+            get; set;
+        }
+        public RoleModel RoleModel
         {
             get; set;
         }

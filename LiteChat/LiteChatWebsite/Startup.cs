@@ -1,15 +1,10 @@
+using LiteChatWebsite.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MVC1.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace LiteChatWebsite
 {
@@ -28,6 +23,8 @@ namespace LiteChatWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<LiteChatContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LiteChatConnectionStrings")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
