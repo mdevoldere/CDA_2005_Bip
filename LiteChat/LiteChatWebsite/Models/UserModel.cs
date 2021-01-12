@@ -15,7 +15,7 @@ namespace LiteChatWebsite.Models
         }
 
         [Column("user_name")]
-        [MaxLength(50)]
+        [MaxLength(20)]
         [Required]
         public string UserName
         {
@@ -25,6 +25,13 @@ namespace LiteChatWebsite.Models
         [Column("user_password", TypeName = "char(72)")]
         [Required]
         public string UserPassWord
+        {
+            get; set;
+        }
+
+        [ForeignKey("FK_role_in_user")]
+        [Column("role_id")]
+        public int RoleID
         {
             get; set;
         }
