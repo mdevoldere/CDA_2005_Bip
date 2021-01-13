@@ -10,12 +10,12 @@ namespace LiteChatWebsite.Data
         
         }
         
-        public DbSet<UserModel> Users
+        public DbSet<User> Users
         {
             get; set;
         }
 
-        public DbSet<RoleModel> Roles
+        public DbSet<Role> Roles
         {
             get; set;
         }

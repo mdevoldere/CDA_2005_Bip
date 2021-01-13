@@ -2,7 +2,7 @@
 
 namespace LiteChatWebsite.Migrations
 {
-    public partial class init : Migration
+    public partial class db_LiteChat : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace LiteChatWebsite.Models
 {
     [Table("t_users")]
-    public class UserModel
+    public class User
     {
         [Key]
         [Column("user_id")]
@@ -35,7 +35,7 @@ namespace LiteChatWebsite.Models
         {
             get; set;
         }
-        public RoleModel RoleModel
+        public Role RoleModel
         {
             get; set;
         }
