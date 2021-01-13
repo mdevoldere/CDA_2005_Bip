@@ -1,0 +1,193 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #2d6ca4;
+    display: inline-block;
+}
+
+    header h1 {
+        float: left;
+        margin-left: 25px;
+        margin-top: 35px;
+        font-family: cursive;
+        color: #DDDDDD;
+    }
+
+img {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+
+.header-button {
+    float: right;
+    text-decoration: none;
+    margin: 22px 5px;
+    border: solid 0.13rem #dcd9d7;
+    padding: 6px 14px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+    .header-button:hover {
+        background-color: #3809DD;
+        color: white;
+        border-radius: 2px;
+        border: solid 0.13rem #3809DD;
+    }
+
+.btn {
+    width: 100px;
+    border-color: #236E0D;
+    background-color: #38DD09;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 775px;
+    margin-top: -4px;
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+    aside h3 {
+        background-color: #2d6ca4;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+.user-section {
+    height: 40%;
+    overflow: auto;
+}
+
+.user-table {
+    width: 80%;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+    .user-table tr:hover {
+        background-color: #CCCCFF !important;
+    }
+
+    .user-table tr:nth-child(odd) {
+        background-color: #CCFFCC;
+    }
+
+    .user-table tr td {
+        padding: 3px;
+    }
+
+main {
+    padding: 10px;
+    width: 80%;
+    background-color: #DDDDDD;
+    height: 100%;
+    float: left;
+}
+
+.messagerie-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+    .messagerie-table tr:hover {
+        background-color: rgb(168, 156, 156) !important;
+    }
+
+    .messagerie-table tr td {
+        padding: 7px;
+    }
+
+    .messagerie-table tr:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .messagerie-table tr td:first-child {
+        width: 10%;
+    }
+
+    .messagerie-table tr td:nth-child(even) {
+        font-weight: bold;
+    }
+
+    .messagerie-table tr td:last-child {
+        width: 80%;
+    }
+
+.form-text {
+    width: 92%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 15px;
+    font-size: 14px;
+    border: solid 1px #C1C1C1;
+}
+
+    .form-text:focus {
+        border: none;
+    }
+
+.form-button {
+    width: 7%;
+    height: 39px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #38DD09;
+    color: white;
+    border: solid 1px #C1C1C1;
+}
+
+    .form-button:hover {
+        background-color: #3809DD;
+        color: white;
+    }
+
+    .form-button:active {
+        border: none;
+    }
+
+.messagerie {
+    height: 95%;
+    position: relative;
+    overflow: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #333333;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
