@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LiteChatWebsite.Migrations
 {
     [DbContext(typeof(LiteChatContext))]
-    [Migration("20210112095153_init")]
-    partial class init
+    [Migration("20210113134942_db_LiteChat")]
+    partial class db_LiteChat
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,7 +20,7 @@ namespace LiteChatWebsite.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
 
-            modelBuilder.Entity("LiteChatWebsite.Models.RoleModel", b =>
+            modelBuilder.Entity("LiteChatWebsite.Models.Role", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -39,7 +39,7 @@ namespace LiteChatWebsite.Migrations
                     b.ToTable("t_roles");
                 });
 
-            modelBuilder.Entity("LiteChatWebsite.Models.UserModel", b =>
+            modelBuilder.Entity("LiteChatWebsite.Models.User", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -69,9 +69,9 @@ namespace LiteChatWebsite.Migrations
                     b.ToTable("t_users");
                 });
 
-            modelBuilder.Entity("LiteChatWebsite.Models.UserModel", b =>
+            modelBuilder.Entity("LiteChatWebsite.Models.User", b =>
                 {
-                    b.HasOne("LiteChatWebsite.Models.RoleModel", "RoleModel")
+                    b.HasOne("LiteChatWebsite.Models.Role", "RoleModel")
                         .WithMany()
                         .HasForeignKey("RoleModelID")
                         .OnDelete(DeleteBehavior.Cascade)

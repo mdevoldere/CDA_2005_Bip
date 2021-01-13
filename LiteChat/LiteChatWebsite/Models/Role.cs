@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace LiteChatWebsite.Models
 {
     [Table("t_roles")]
-    public class RoleModel
+    public class Role
     {
         [Key]
         [Column("role_id")]
@@ -17,6 +17,6 @@ namespace LiteChatWebsite.Models
         [Required]
         public string RoleType { get; set; }
 
-        public ICollection<UserModel> UserModels;
+        public ICollection<User> UserModels;
     }
 }
