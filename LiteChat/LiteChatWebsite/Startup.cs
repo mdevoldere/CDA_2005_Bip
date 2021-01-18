@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MVC1.Data;
+//using MVC1.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
