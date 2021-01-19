@@ -1,14 +1,205 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/Style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1df9e1fae9.js" crossorigin="anonymous"></script>
+    <title>@ViewData["Title"] - Lite Chat</title>
 </head>
+
 <body>
-    <div>
-        @RenderBody()
+    <header>
+        <img src="~/arfp-crm2.svg" />
+        <h1>Lite Chat</h1>
+        <a class="header-button btn" href="#">  Log in</a>
+        <a class="header-button btn" href="#"> Register</a>
+
+    </header>
+
+    <div class="container">
+        <aside>
+            <h3>Users</h3>
+            <section class="user-section">
+                <table class="user-table">
+                    <tr>
+                        <td>Mike</td>
+                    </tr>
+                    <tr>
+                        <td>Joe</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+                    <tr>
+                        <td>Mike</td>
+                    </tr>
+                    <tr>
+                        <td>Joe</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+                </table>
+            </section>
+
+            <h3>Salons</h3>
+            <section class="user-section">
+                <table class="user-table">
+                    <tr>
+                        <td>Mike</td>
+                    </tr>
+                    <tr>
+                        <td>Joe, Mike, Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>Leo</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                    </tr>
+                </table>
+            </section>
+        </aside>
+
+        <main role="main">
+
+
+            <section class="messagerie">
+                <table class="messagerie-table">
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quam, voluptate temporibus a explicabo, eligendi laborum mollitia </td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> recusandae accusantium facilis delectus rem. Consectetur nobis, facilis officiis eaque enim aspernatur libero?recusandae accusantium facilis delectus rem. Consectetur nobis, facilis officiis eaque enim aspernatur libero?</td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> recusandae accusantium facilis delectus rem. Consectetur nobis, aspernatur libero?</td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> recusandae accusantium facilis delectus rem. Consectetur nobis, facilis officiis eaque enim aspernatur libero?recusandae accusantium facilis delectus rem. Consectetur nobis, facilis officiis eaque enim aspernatur libero?</td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> recusandae accusantium facilis delectus rem. </td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td>Consectetur nobis, facilis officiis eaque enim aspernatur libero?</td>
+                    </tr>
+
+                    <tr>
+                        <td>06:54:32</td>
+                        <td>Mike</td>
+                        <td> Bonsoir à tous</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="message">
+                <form>
+                    <input class="form-text" type="text">
+                    <input class="form-button" type="submit" value="Send">
+                </form>
+            </section>
+
+
+
+        </main>
+
+        <!--- @RenderBody() -->
+
     </div>
+
+
+    <footer><i class="far fa-copyright"></i> Copyright 2021</footer>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+@*<!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <div>
+            @RenderBody()
+        </div>
+    </body>
+    </html>*@
