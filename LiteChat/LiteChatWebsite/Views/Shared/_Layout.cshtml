@@ -5,17 +5,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/css/Style.css" rel="stylesheet" />
+    @*<link href="~/css/Style.css" rel="stylesheet" />*@
+    <link href="~/css/site.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/1df9e1fae9.js" crossorigin="anonymous"></script>
     <title>@ViewData["Title"] - Lite Chat</title>
 </head>
 
 <body>
     <header>
-        <img src="~/arfp-crm2.svg" />
-        <h1>Lite Chat</h1>
-        <a class="header-button btn" href="#">  Log in</a>
-        <a class="header-button btn" href="#"> Register</a>
+        <div id="header-left-content" class="header-div">
+            @*<img id="header-logo" src="~/arfp-crm2.svg" />*@
+            <img id="header-logo" src="http://arfp.eu/assets/crm-logo-new.png" />
+            <h1 id="header-title">Lite Chat</h1>
+        </div>
+        <div id="header-right-content" class="header-div">
+            <p id="header-status">Username (a remplacer par le viewbag) : Connecté</p>
+            <a id="header-button" href="#">  Déconnexion</a>
+        </div>
+        @*<p>@ViewBag.UserName : Connecté</p>*@
 
     </header>
 
@@ -115,7 +122,7 @@
     </div>
 
 
-    <footer><i class="far fa-copyright"></i> Copyright 2021</footer>
+    <footer>&copy; Copyright 2021 - masoud/nthouvenot/kawaroro/kyweez</footer>
 </body>
 
 </html>

@@ -1,0 +1,109 @@
+﻿/* ###################### GENERAL ###################### */
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(1em * .625);
+    background-color: #FAF7F5;
+}
+
+body {
+    width: 100%;
+    font-size: 1.4em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #FAF7F5;
+    text-decoration: none;
+}
+
+/* ###################### HEADER ###################### */
+/*General*/
+header {
+    background-color : Highlight;
+    height : 10vh;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:absolute;
+}
+
+.header-div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Left content*/
+#header-left-content {
+    width: 30%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#header-logo {
+    height: 8vh;
+    padding-left: 2%;
+}
+
+#header-title {
+    padding-left: 3%;
+    font-size: 4rem;
+}
+
+/*Right content*/
+#header-right-content {
+    width: 70%;
+    justify-content: flex-end;
+    background-color: red;
+    align-items: center;
+}
+
+#header-status {
+    background-color : aqua;
+    margin-right: 1vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#header-button {
+    display: block;
+    padding: 1vh 1vw;
+    margin-right: 2vw;
+    background-color: blueviolet;
+}
+
+/* ###################### FOOTER ###################### */
+footer {
+    background-color: darkslategrey;
+    position: absolute;
+    top: 93vh;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* ###################### MAIN ###################### */
+.container {
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    min-height: 83vh;
+    background-color:blue;
+}
+
+
