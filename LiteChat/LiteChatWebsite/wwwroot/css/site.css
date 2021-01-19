@@ -133,6 +133,7 @@ footer {
     color: white;
     font-size: 1.8rem;
     text-align:center;
+    padding: 2% 0;
     height: 8%;
     width: 100%;
 }
@@ -149,7 +150,6 @@ footer {
     border-collapse: collapse;
 
 }
-
 
 .section-table tr > td {
     padding: 0.5rem 0 1rem 0.5rem;
